@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonadabe Santos\\Documents\\GitHub\\Desfio_Estacionamento_CS\\Desfio_Estacionamento_C#.csproj": {}
+    "C:\\Users\\Jonadabe Santos\\Documents\\GitHub\\Desafio_Estacionamento_CS\\Desfio_Estacionamento_C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonadabe Santos\\Documents\\GitHub\\Desfio_Estacionamento_CS\\Desfio_Estacionamento_C#.csproj": {
+    "C:\\Users\\Jonadabe Santos\\Documents\\GitHub\\Desafio_Estacionamento_CS\\Desfio_Estacionamento_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonadabe Santos\\Documents\\GitHub\\Desfio_Estacionamento_CS\\Desfio_Estacionamento_C#.csproj",
+        "projectUniqueName": "C:\\Users\\Jonadabe Santos\\Documents\\GitHub\\Desafio_Estacionamento_CS\\Desfio_Estacionamento_C#.csproj",
         "projectName": "Desfio_Estacionamento_C#",
-        "projectPath": "C:\\Users\\Jonadabe Santos\\Documents\\GitHub\\Desfio_Estacionamento_CS\\Desfio_Estacionamento_C#.csproj",
+        "projectPath": "C:\\Users\\Jonadabe Santos\\Documents\\GitHub\\Desafio_Estacionamento_CS\\Desfio_Estacionamento_C#.csproj",
         "packagesPath": "C:\\Users\\Jonadabe Santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonadabe Santos\\Documents\\GitHub\\Desfio_Estacionamento_CS\\obj\\",
+        "outputPath": "C:\\Users\\Jonadabe Santos\\Documents\\GitHub\\Desafio_Estacionamento_CS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonadabe Santos\\AppData\\Roaming\\NuGet\\NuGet.Config"
