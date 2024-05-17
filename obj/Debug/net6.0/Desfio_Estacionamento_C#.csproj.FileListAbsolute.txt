@@ -1,0 +1,15 @@
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\bin\Debug\net6.0\Desfio_Estacionamento_C#.exe
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\bin\Debug\net6.0\Desfio_Estacionamento_C#.deps.json
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\bin\Debug\net6.0\Desfio_Estacionamento_C#.runtimeconfig.json
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\bin\Debug\net6.0\Desfio_Estacionamento_C#.dll
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\bin\Debug\net6.0\Desfio_Estacionamento_C#.pdb
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\obj\Debug\net6.0\Desfio_Estacionamento_C#.csproj.AssemblyReference.cache
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\obj\Debug\net6.0\Desfio_Estacionamento_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\obj\Debug\net6.0\Desfio_Estacionamento_C#.AssemblyInfoInputs.cache
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\obj\Debug\net6.0\Desfio_Estacionamento_C#.AssemblyInfo.cs
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\obj\Debug\net6.0\Desfio_Estacionamento_C#.csproj.CoreCompileInputs.cache
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\obj\Debug\net6.0\Desfio_Estacionamento_C#.dll
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\obj\Debug\net6.0\refint\Desfio_Estacionamento_C#.dll
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\obj\Debug\net6.0\Desfio_Estacionamento_C#.pdb
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\obj\Debug\net6.0\Desfio_Estacionamento_C#.genruntimeconfig.cache
+C:\Users\Jonadabe Santos\Documents\GitHub\Desafio_Estacionamento_CS\obj\Debug\net6.0\ref\Desfio_Estacionamento_C#.dll

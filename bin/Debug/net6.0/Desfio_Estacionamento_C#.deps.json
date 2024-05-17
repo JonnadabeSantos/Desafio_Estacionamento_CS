@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Desfio_Estacionamento_C#/1.0.0": {
+        "runtime": {
+          "Desfio_Estacionamento_C#.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Desfio_Estacionamento_C#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
