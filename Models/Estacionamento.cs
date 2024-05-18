@@ -20,19 +20,26 @@ namespace Desfio_Estacionamento_C_.Models
 
         public void AdicionarVeiculo()
         {
-            Console.WriteLine("Digite a placa do veículo para estacionar: ");
+             Console.Write("Digite a placa do veículo para estacionar: ");
+             string inscricao = Console.ReadLine();
+             veiculos.Add(inscricao);
+
+             Console.WriteLine($"\n{inscricao} added successfully:");
         }
 
         public void RemoverVeiculo()
         {
-            Console.WriteLine("Digite a placa do veículo para remover: ");            
-            string placa = "";
+            Console.Write("Digite a placa do veículo para remover: ");            
+            string placa = Console.ReadLine();
+            veiculos.Remove(placa);
             
             if (veiculos.Any(x => x.ToUpper() == placa.ToUpper() ))
             {
-                Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado: ");
-                int horas = 0;
+                Console.Write("Digite a quantidade de horas que o veículo permaneceu estacionado: ");
+                int horas = Convert.ToInt16(Console.ReadLine());
+
                 decimal valorTotal = 0;
+                valorTotal = precoInicial * horas;
 
                 Console.WriteLine($"O veícilo de placa {placa} foi removidoe o preço total doi de: R$ {valorTotal}");
             }
@@ -47,8 +54,11 @@ namespace Desfio_Estacionamento_C_.Models
         {
             if (veiculos.Any())
             {
-                Console.WriteLine("Os veículos estacionados são: ");
-                
+                Console.WriteLine("Os veículos estacionados são: \n");
+                foreach (string item in veiculos)
+                {
+                    Console.WriteLine(item);
+                }
             }
             else
             {
