@@ -7,13 +7,13 @@ namespace Desfio_Estacionamento_C_.Models
 {
     public class Estacionamento
     {
-        private decimal precoInicial = 0;
+        private decimal parkingTax = 0;
         private decimal precoPorHora = 0;
         private List<string> veiculos = new List<string>();
 
-        public Estacionamento(decimal precoInicial, decimal precoPorHora)
+        public Estacionamento(decimal parkingTax, decimal precoPorHora)
         {
-            this.precoInicial = precoInicial;
+            this.parkingTax = parkingTax;
             this.precoPorHora = precoPorHora;
             
         }
@@ -31,17 +31,22 @@ namespace Desfio_Estacionamento_C_.Models
         {
             Console.Write("Digite a placa do veículo para remover: ");            
             string placa = Console.ReadLine();
-            veiculos.Remove(placa);
             
             if (veiculos.Any(x => x.ToUpper() == placa.ToUpper() ))
             {
-                Console.Write("Digite a quantidade de horas que o veículo permaneceu estacionado: ");
-                int horas = Convert.ToInt16(Console.ReadLine());
+                veiculos.Remove(placa);
+                int horas;
+
+                Console.Write("\nDigite a quantidade de horas que o veículo permaneceu estacionado: ");
+                while (!int.TryParse(Console.ReadLine(), out horas) && horas >= 0)
+                {
+                    Console.WriteLine("Invalid Number !!");
+                }
 
                 decimal valorTotal = 0;
-                valorTotal = precoInicial * horas;
+                valorTotal = precoPorHora * horas + parkingTax;
 
-                Console.WriteLine($"O veícilo de placa {placa} foi removidoe o preço total doi de: R$ {valorTotal}");
+                Console.WriteLine($"O veículo de placa {placa} foi removido e o preço total foi de: R$ {valorTotal}");
             }
             else
             {

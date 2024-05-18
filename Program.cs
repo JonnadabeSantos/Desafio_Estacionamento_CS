@@ -2,17 +2,17 @@
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-decimal precoInicial = 0;
+decimal parkingTax = 0;
 decimal precoPorHora = 0;
 
-Console.WriteLine("Welcome to JS parking !");
-Console.Write("Enter the initial value: ");
-precoInicial = Convert.ToDecimal(Console.ReadLine());
+Console.WriteLine("\nWelcome to JS parking !");
+Console.Write("Enter the parkingTax: ");
+parkingTax = Convert.ToDecimal(Console.ReadLine());
 
 Console.Write("Enter the price per hour: ");
 precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
-Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
+Estacionamento es = new Estacionamento(parkingTax, precoPorHora);
 
 bool exibirMenu = true;
 
